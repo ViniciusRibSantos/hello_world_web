@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Olá Mundo</title>
+		<style>
+			body {
+				text-align:center;
+			}
+
+			.paragrafo {
+				font-size: 20px;
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="p1" class="paragrafo"></p>
+		<button onclick="dizerOla()">Click Aqui</button>
+	</body>
+</html>
+<script>
+	function dizerOla(){
+		document.getElementById("p1").innerHTML = "Olá Mundo :)";
+	}
+</script>
